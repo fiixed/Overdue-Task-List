@@ -34,9 +34,27 @@
 }
 */
 
-- (IBAction)cancelButtonPressed:(UIButton *)sender {
+- (IBAction)cancelButtonPressed:(UIButton *)sender
+{
+    [self.delegate didCancel];
 }
 
-- (IBAction)addTaskButtonPressed:(UIButton *)sender {
+- (IBAction)addTaskButtonPressed:(UIButton *)sender
+{
+    [self.delegate didAddTask:[self returnNewTask]];
+}
+
+#pragma mark - Helper Method
+
+-(Task *)returnNewTask
+{
+    Task *addedTask = [[Task alloc]init];
+    addedTask.taskTitle = self.textField.text;
+    addedTask.taskDescription = self.textView.text;
+    addedTask.taskDate = self.datePIcker.date;
+    addedTask.taskIsCompleted = NO;
+    
+    return addedTask;
+    
 }
 @end

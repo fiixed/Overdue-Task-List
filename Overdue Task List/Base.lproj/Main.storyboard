@@ -96,6 +96,7 @@
                         <viewControllerLayoutGuide type="bottom" id="Dph-TQ-hBm"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="bxc-3t-jFt">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Task" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UDc-Ww-7yl">
@@ -169,6 +170,7 @@
                         <viewControllerLayoutGuide type="bottom" id="dWf-MG-616"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="0fg-Og-aMU">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jlO-DY-GCB">
@@ -240,6 +242,7 @@
                         <viewControllerLayoutGuide type="bottom" id="zYV-jD-zha"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="aqi-zo-gfF">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lbA-8u-LYy">
